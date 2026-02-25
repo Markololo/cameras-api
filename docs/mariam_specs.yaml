@@ -1,0 +1,13 @@
+openapi: '3.0.3'
+info:
+  title: An API for sharing data about cameras
+  version: '1.0'
+servers:
+  - url: http://localhost/camera-api
+paths:
+  /manufacturers:
+    get:
+      responses:
+        '200':
+          description: OK
+

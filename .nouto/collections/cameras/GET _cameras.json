@@ -1,0 +1,52 @@
+{
+  "id": "1774469316555-ihfvivk",
+  "name": "GET /cameras",
+  "method": "GET",
+  "url": "{{base}}/cameras",
+  "params": [
+    {
+      "id": "1774469335520-nxzfmtf",
+      "key": "body_type",
+      "value": "DSLR",
+      "enabled": true
+    },
+    {
+      "id": "1774469336464-78jctfw",
+      "key": "has_ibis",
+      "value": "1",
+      "enabled": true
+    },
+    {
+      "id": "1774469337072-s4j2pge",
+      "key": "release_date_after",
+      "value": "2021-01-01",
+      "enabled": true
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774468101684-e5ml5zy",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T20:08:36.555Z",
+  "updatedAt": "2026-03-25T20:42:26.239Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 9,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

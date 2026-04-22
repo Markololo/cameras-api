@@ -1,0 +1,52 @@
+{
+  "id": "1774466330661-4ldoavx",
+  "name": "GET /manufacturers/1/lenses",
+  "method": "GET",
+  "url": "{{base}}/manufacturers/1/lenses",
+  "params": [
+    {
+      "id": "1774466349028-li1xrog",
+      "key": "lens_type",
+      "value": "Prime",
+      "enabled": true
+    },
+    {
+      "id": "1774466382276-70sxsjn",
+      "key": "aperture_max_min",
+      "value": "11.1",
+      "enabled": true
+    },
+    {
+      "id": "1774466383756-pyw9s0u",
+      "key": "aperture_max_max",
+      "value": "2.1",
+      "enabled": true
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774460964370-d79afh1",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T19:18:50.661Z",
+  "updatedAt": "2026-03-25T21:14:08.923Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 35,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

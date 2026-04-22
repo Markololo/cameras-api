@@ -1,0 +1,64 @@
+{
+  "id": "1774465732517-kt57as9",
+  "name": "GET cameras",
+  "method": "GET",
+  "url": "{{base}}/mounts/1/cameras",
+  "params": [
+    {
+      "id": "1774461365906-aun7l6i",
+      "key": "page",
+      "value": "3",
+      "enabled": false
+    },
+    {
+      "id": "1774461380489-cuxj0l4",
+      "key": "page_size",
+      "value": "7",
+      "enabled": false
+    },
+    {
+      "id": "1774463737450-r53aftk",
+      "key": "body_type",
+      "value": "DSLR",
+      "enabled": false
+    },
+    {
+      "id": "1774464011522-s0eg2xf",
+      "key": "price_min",
+      "value": "1",
+      "enabled": false
+    },
+    {
+      "id": "1774464025370-jo9u5a1",
+      "key": "price_max",
+      "value": "7500",
+      "enabled": false
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774460964370-d79afh1",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T19:08:52.517Z",
+  "updatedAt": "2026-03-25T21:14:52.613Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 26,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "1774465965727-vys00dv",
+  "name": "GET Manufacturers",
+  "method": "GET",
+  "url": "http://localhost/cameras-api/token",
+  "params": [
+    {
+      "id": "1774465978116-7gfmzdh",
+      "key": "page",
+      "value": "3",
+      "enabled": false
+    },
+    {
+      "id": "1774465981500-qnpdcr0",
+      "key": "page_size",
+      "value": "2",
+      "enabled": false
+    },
+    {
+      "id": "1774465985973-j91fu47",
+      "key": "country",
+      "value": "Japan",
+      "enabled": false
+    },
+    {
+      "id": "1774466010044-uefe08k",
+      "key": "founded_year_after",
+      "value": "1930",
+      "enabled": false
+    },
+    {
+      "id": "1774466014612-9k3j1dx",
+      "key": "camera_count_min",
+      "value": "13",
+      "enabled": false
+    },
+    {
+      "id": "1774470771874-v1gh7rh",
+      "key": "name_des",
+      "value": "true",
+      "enabled": false
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774460964370-d79afh1",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T19:12:45.727Z",
+  "updatedAt": "2026-04-22T20:53:30.440Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 40,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "1774460977914-bpzjooz",
+  "name": "GET camera mounts",
+  "method": "GET",
+  "url": "{{base}}/mounts/1/cameras",
+  "params": [
+    {
+      "id": "1774465838780-ky7p8t9",
+      "key": "page",
+      "value": "2",
+      "enabled": true
+    },
+    {
+      "id": "1774465838780-wa1rcu9",
+      "key": "page_size",
+      "value": "3",
+      "enabled": true
+    },
+    {
+      "id": "1774465859924-z5ft197",
+      "key": "body_type",
+      "value": "Mirrorless",
+      "enabled": true
+    },
+    {
+      "id": "1774465861140-7c14z2c",
+      "key": "has_ibis",
+      "value": "1",
+      "enabled": true
+    },
+    {
+      "id": "1774465866253-dt1u3a0",
+      "key": "release_date_after",
+      "value": "2022-08-25",
+      "enabled": true
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774460964370-d79afh1",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T17:49:37.914Z",
+  "updatedAt": "2026-03-25T20:07:22.378Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 41,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "1774468598529-459yuzn",
+  "name": "GET /lenses/1/specs",
+  "method": "GET",
+  "url": "{{base}}/lenses/1/specs",
+  "params": [
+    {
+      "id": "1774468705822-qylse5r",
+      "key": "has_stabilization",
+      "value": "1",
+      "enabled": false
+    },
+    {
+      "id": "1774468711653-cq7e2d8",
+      "key": "min_focus_distance_max",
+      "value": "0.1",
+      "enabled": false
+    },
+    {
+      "id": "1774468718822-dhswuw6",
+      "key": "filter_size",
+      "value": "0.1",
+      "enabled": true
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774468101684-e5ml5zy",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T19:56:38.529Z",
+  "updatedAt": "2026-03-25T21:13:26.050Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 23,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

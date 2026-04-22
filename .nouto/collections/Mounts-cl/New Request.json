@@ -1,0 +1,25 @@
+{
+  "id": "1774469811987-7mcv5lk",
+  "name": "New Request",
+  "method": "GET",
+  "url": "",
+  "params": [],
+  "headers": [
+    {
+      "id": "1774468101684-e5ml5zy",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T20:16:51.987Z",
+  "updatedAt": "2026-03-25T20:16:51.987Z"
+}

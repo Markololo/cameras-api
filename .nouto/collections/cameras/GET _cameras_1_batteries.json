@@ -1,0 +1,52 @@
+{
+  "id": "1774468855057-caossau",
+  "name": "GET /cameras/1/batteries",
+  "method": "GET",
+  "url": "{{base}}/cameras/3/batteries",
+  "params": [
+    {
+      "id": "1774469728881-wo0it0e",
+      "key": "capacity_min",
+      "value": "2222",
+      "enabled": true
+    },
+    {
+      "id": "1774469736585-51i35gr",
+      "key": "voltage_min",
+      "value": "8",
+      "enabled": true
+    },
+    {
+      "id": "1774469740097-k876he5",
+      "key": "weight_max",
+      "value": "100",
+      "enabled": true
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774468101684-e5ml5zy",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T20:00:55.057Z",
+  "updatedAt": "2026-03-25T20:25:18.236Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 11,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

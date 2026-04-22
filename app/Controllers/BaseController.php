@@ -18,6 +18,19 @@ abstract class BaseController
         $response->getBody()->write($payload);
         return $response->withStatus($status_code)->withAddedHeader(HEADERS_CONTENT_TYPE, APP_MEDIA_TYPE_JSON);
     }
+    protected function validatePaginationParams(array $filters): array
+    {
+        $page = isset($filters['page']) ? (int)$filters['page'] : 1;
+        $page_size = isset($filters['page_size']) ? (int)$filters['page_size'] : 10;
 
-    
+        // Validate ranges
+        if ($page < 1) {
+            $page = 1;
+        }
+        if ($page_size < 1 || $page_size > 100) { // Example max limit
+            $page_size = 10;
+        }
+
+        return ['page' => $page, 'page_size' => $page_size];
+    }
 }

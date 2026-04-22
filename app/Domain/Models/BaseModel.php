@@ -390,4 +390,23 @@ abstract class BaseModel
         $this->current_page = $current_page;
         $this->records_per_page = $records_per_page;
     }
+
+    public function validatePaginationParams(array $filters): array
+    {
+        $page = (isset($filters['page']) && is_integer($filters['page'])) ? (int)$filters['page'] : 1;
+        $page_size = (isset($filters['page_size']) && is_integer($filters['page_size'])) ? (int)$filters['page_size'] : 5;
+
+        if ($page < 1) {
+            $page = 1;
+        }
+        if ($page_size < 1 || $page_size > 20) { //I think more than 20 is a lot 
+            $page_size = 5;
+        }
+
+        $verified_params = [
+            "page" => $page,
+            "page_size" => $page_size
+        ];
+        return $verified_params;
+    }
 }

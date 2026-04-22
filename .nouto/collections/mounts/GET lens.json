@@ -1,0 +1,64 @@
+{
+  "id": "1774464191263-oa2taic",
+  "name": "GET lens",
+  "method": "GET",
+  "url": "{{base}}/mounts/1/lenses",
+  "params": [
+    {
+      "id": "1774464289530-fvrt1fc",
+      "key": "lens_type",
+      "value": "Tilt-Shift",
+      "enabled": false
+    },
+    {
+      "id": "1774464265323-50kz4ck",
+      "key": "page",
+      "value": "2",
+      "enabled": false
+    },
+    {
+      "id": "1774464272866-j16ex4l",
+      "key": "page_size",
+      "value": "1",
+      "enabled": false
+    },
+    {
+      "id": "1774465275605-hzx1d5r",
+      "key": "aperture_max",
+      "value": "2.7",
+      "enabled": false
+    },
+    {
+      "id": "1774465287692-nq4icrx",
+      "key": "manufacturer",
+      "value": "Canon",
+      "enabled": false
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774460964370-d79afh1",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T18:43:11.263Z",
+  "updatedAt": "2026-03-25T19:07:44.158Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 9,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}

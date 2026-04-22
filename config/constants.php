@@ -8,6 +8,9 @@ define('APP_BASE_PATH', dirname(__DIR__, 1));
 // In Docker, this can be set via environment variable; otherwise, uses the folder name.
 define('APP_ROOT_DIR', $_ENV['APP_ROOT_DIR'] ?? basename(dirname(__FILE__, 2)));
 
+//This is the location for the the logs
+define('APP_LOG_DIR', APP_BASE_PATH . '/var/logs');
+
 //* HTTP response status code.
 const HTTP_OK = 200;
 const HTTP_CREATED = 201;
@@ -15,6 +18,8 @@ const HTTP_NO_CONTENT = 204;
 const HTTP_METHOD_NOT_ALLOWED = 405;
 const HTTP_UNSUPPORTED_MEDIA_TYPE = 415;
 const HTTP_NOT_FOUND = 404;
+const HTTP_UNAUTHORIZED = 401;
+const HTTP_FORBIDDEN = 403;
 //* HTTP response headers.
 const HEADERS_CONTENT_TYPE = "Content-Type";
 //* Supported Media Types.

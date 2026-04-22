@@ -1,0 +1,58 @@
+{
+  "id": "1774466486976-6n0lsxt",
+  "name": "GET /processors",
+  "method": "GET",
+  "url": "{{base}}/processors",
+  "params": [
+    {
+      "id": "1774466504396-a3up1ia",
+      "key": "manufacturer",
+      "value": "Canon",
+      "enabled": false
+    },
+    {
+      "id": "1774466505884-g5n8th2",
+      "key": "generation_min",
+      "value": "2",
+      "enabled": false
+    },
+    {
+      "id": "1774466515484-dk9xld1",
+      "key": "generation_max",
+      "value": "7",
+      "enabled": false
+    },
+    {
+      "id": "1774471088698-on6uepd",
+      "key": "name_desc",
+      "value": "true",
+      "enabled": false
+    }
+  ],
+  "headers": [
+    {
+      "id": "1774460964370-d79afh1",
+      "key": "User-Agent",
+      "value": "Nouto",
+      "enabled": true
+    }
+  ],
+  "auth": {
+    "type": "none"
+  },
+  "body": {
+    "type": "none",
+    "content": ""
+  },
+  "connectionMode": "http",
+  "createdAt": "2026-03-25T19:21:26.976Z",
+  "updatedAt": "2026-03-25T20:38:57.744Z",
+  "lastResponseStatus": 200,
+  "lastResponseDuration": 61,
+  "pathParams": [],
+  "scripts": {
+    "preRequest": "",
+    "postResponse": ""
+  },
+  "assertions": []
+}
